@@ -1,7 +1,6 @@
 ---
-
- - name: Add hashicorp repo
-   ansible.builtin.yum_repository:
-     name: hashicorp
-     description: hashicorp repository
-     baseurl: https://rpm.releases.hashicorp.com/fedora/hashicorp.repo
+- name: Add hashicorp repo
+  ansible.builtin.yum_repository:
+   name: hashicorp
+   description: hashicorp repository
+   baseurl: https://rpm.releases.hashicorp.com/fedora/hashicorp.repo
