@@ -1,5 +1,5 @@
 ---
-- name: Add hashicorp repo
+- name: Add hashicorp repository on fedora
   ansible.builtin.yum_repository:
    name: hashicorp
    description: hashicorp repository
